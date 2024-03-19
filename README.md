@@ -7,8 +7,9 @@ Install instructions:
 1. Download latest release of extension
 2. Unzip the file
 3. Go to Edge://extensions
-4. Press Load Unpacked
-5. Select unzipped file
+4. Toggle developer mode
+5. Press Load Unpacked
+6. Select unzipped file
 
 Use instructions:
 1. Press the puzzle piece icon in the Edge toolbar
