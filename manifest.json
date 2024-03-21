@@ -1,18 +1,20 @@
 {
-    "manifest_version": 2,
-    "name": "Google Account Switcher",
-    "version": "1.0",
-    "description": "Switch between Google user accounts.",
-    "permissions": ["tabs", "<all_urls>"],
-    "background": {
-        "scripts": ["user-switch.js"],
-        "persistent": false
-    },
-    "browser_action": {
-        "default_icon": "icon.png",
-        "default_title": "Switch Google Account"
-    },
-    "icons": {
-        "48": "icon.png"
-    }
+  "manifest_version": 3,
+  "name": "Google Account Switcher",
+  "version": "1.0",
+  "description": "Switch between Google user accounts.",
+  "permissions": ["tabs", "<all_urls>"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "Switch Google Account"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "host_permissions": [
+    "*://*.google.com/*"
+  ]
 }
