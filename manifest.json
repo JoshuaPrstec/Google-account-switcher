@@ -9,7 +9,7 @@
     "default_title": "Switch Google Account"
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "user-switch.js"
   },
   "icons": {
     "48": "icon.png"
