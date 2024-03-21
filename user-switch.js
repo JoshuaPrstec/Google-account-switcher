@@ -11,7 +11,7 @@ chrome.action.onClicked.addListener((tab) => {
     // Replace 'pli=1' or 'authuser=0' with 'authuser=1'
     let newUrl = url.replace(/(pli=1)|(authuser=0)/g, 'authuser=1');
     // Ensure only the first instance of 'authuser=1' is replaced when 'authuser=0' was not present
-    else if (!url.includes('authuser=0')) {
+    if (!url.includes('authuser=0')) {
       newUrl = newUrl.replace('authuser=1', 'authuser=0');
     }
     chrome.tabs.update(tab.id, { url: newUrl });
