@@ -18,5 +18,5 @@ Use instructions:
 >[!NOTE]
 >This extension only works on websites that contain 'google.com' in the URL, meaning it will work on websites such as 'drive.google.com' but NOT on 'youtube.com' (yet).
 
->[!IMPORTANT]
+>[!CAUTION]
 >In order for the extension to work, you cannot delete or move the Google-account-switcher file from your computer. If the extension stops working, ensure that you haven't accidentally deleted or moved the file.
