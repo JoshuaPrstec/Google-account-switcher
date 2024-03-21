@@ -16,4 +16,7 @@ Use instructions:
 2. Press 'show in toolbar' on the Google Account Switcher extension
 3. To switch users, simply press the extension icon in the toolbar. The website should refresh and be signed into the next user
 >[!NOTE]
->This extension only works on websites that contain 'google.com' and 'u/0' or 'u/1' in the URL, meaning it will work on websites such as 'drive.google.com' but NOT on 'youtube.com' or 'google.com'. These websites should work in a later version.
+>This extension only works on websites that contain 'google.com' in the URL, meaning it will work on websites such as 'drive.google.com' but NOT on 'youtube.com' (yet).
+
+>[!IMPORTANT]
+>In order for the extension to work, you cannot delete or move the Google-account-switcher file from your computer. If the extension stops working, ensure that you haven't accidentally deleted or moved the file.
